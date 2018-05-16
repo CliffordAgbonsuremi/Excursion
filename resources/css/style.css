@@ -1,6 +1,32 @@
-/* Formats similar to different sections in webpage */
+/* black background center everything */
+body{
+  background-color: black;
+  text-align: center;
+}
+/* Formats similar to entire webpage */
 h1,p,h2{
   font-family: Verdana;
-  color: black;
+  color: white;
   text-align: center;
+}
+h1{
+  font-size: 50px;
+}
+/* formatting just h2's */
+h2{
+  font-weight: 300;
+  font-size: 42px;
+}
+p{
+  font-size: 21px;
+  color: gray;
+}
+/* Sets the download links to 16px and color aquamarine */
+.download_link{
+  color: aquamarine;
+  font-size: 16px;
+}
+/* right aligns excursion at the bottom of page */
+#copyright{
+  text-align: right;
 }
